@@ -1,15 +1,22 @@
 {
     "compilerOptions": {
-        "target": "es2015",
+        "target": "es5",
         "module": "commonjs",
+        "lib": ["es2017", "es7", "es6", "dom"],
+        "declaration": true,
         "sourceMap": true,
+        "outDir": "dist",
         "noImplicitAny": true,
         "removeComments": false,
         "noLib": false,
         "preserveConstEnums": true,
-        "outDir": "dist"
+        "esModuleInterop": true
     },
     "include": [
         "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
     ]
 }

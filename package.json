@@ -2,11 +2,13 @@
   "name": "@kheftel/ts-utils",
   "version": "0.0.2",
   "description": "random TypeScript utilities",
-  "main": "index.js",
+  "main": "dist/TSUtils.js",
+  "types": "dist/TSUtils.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no tests yet :P\""
   },
+  "prepublish": "tsc",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kheftel/ts-utils.git"
