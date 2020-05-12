@@ -1,5 +1,5 @@
 export default class TSUtils {
-    public static multiAttempt(testFunc:Function, onComplete:Function, numAttempts:number, interval = 50, debug = false) {
+    public static multiAttempt(testFunc: Function, onComplete: Function, numAttempts: number, interval = 50, debug = false) {
         console.log(`${numAttempts} left`);
 
         if (numAttempts <= 0) {
@@ -18,4 +18,8 @@ export default class TSUtils {
             }, interval);
         }
     }
+
+    public static test() {
+        console.log('†esting...');
+   }
 }
