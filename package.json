@@ -1,0 +1,23 @@
+{
+  "name": "ts-utils",
+  "version": "0.0.1",
+  "description": "random TypeScript utilities",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kheftel/ts-utils.git"
+  },
+  "author": "Kawika Heftel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kheftel/ts-utils/issues"
+  },
+  "homepage": "https://github.com/kheftel/ts-utils#readme",
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  }
+}
