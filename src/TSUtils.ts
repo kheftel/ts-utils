@@ -1,4 +1,4 @@
-export default class TSUTils {
+export default class TSUtils {
     public static multiAttempt(testFunc:Function, onComplete:Function, numAttempts:number, interval = 50, debug = false) {
         console.log(`${numAttempts} left`);
 
@@ -14,7 +14,7 @@ export default class TSUTils {
         } else {
             var timeout = setTimeout(function () {
                 if (debug) console.log(`attempting again in ${interval} ms`);
-                TSUTils.multiAttempt(testFunc, onComplete, numAttempts - 1, interval);
+                TSUtils.multiAttempt(testFunc, onComplete, numAttempts - 1, interval);
             }, interval);
         }
     }
