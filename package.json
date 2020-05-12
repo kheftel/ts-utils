@@ -1,5 +1,5 @@
 {
-  "name": "ts-utils",
+  "name": "@kheftel/ts-utils",
   "version": "0.0.1",
   "description": "random TypeScript utilities",
   "main": "index.js",
@@ -19,5 +19,6 @@
   "homepage": "https://github.com/kheftel/ts-utils#readme",
   "devDependencies": {
     "typescript": "^3.8.3"
-  }
+  },
+  "dependencies": {}
 }
