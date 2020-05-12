@@ -1,6 +1,6 @@
 {
   "name": "@kheftel/ts-utils",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "random TypeScript utilities",
   "main": "dist/TSUtils.js",
   "types": "dist/TSUtils.d.ts",
