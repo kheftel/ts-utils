@@ -1,4 +1,4 @@
-export default class TSUtils {
+export class TSUtils {
     public static multiAttempt(testFunc: Function, onComplete: Function, numAttempts: number, interval = 50, debug = false) {
         console.log(`${numAttempts} left`);
 
@@ -20,6 +20,6 @@ export default class TSUtils {
     }
 
     public static test() {
-        console.log('†esting...');
+        console.log('testing...');
    }
 }
