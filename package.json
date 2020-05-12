@@ -6,9 +6,9 @@
   "types": "dist/TSUtils.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no tests yet :P\""
+    "test": "echo \"Error: no tests yet :P\"",
+    "prepublish": "tsc"
   },
-  "prepublish": "tsc",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kheftel/ts-utils.git"
